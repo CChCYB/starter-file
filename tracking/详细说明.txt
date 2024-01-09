@@ -1,0 +1,10 @@
+npx hardhat node//启动本地区块链节点
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+npx hardhat run --network localhost .\scripts\deploy.js //部署合约到本地测试网络中，也可以部署到以太坊测试网等其他测试网络，但是需要配置env文件
+合约地址：0x5FbDB2315678afecb367f032d93F642f64180aa3//
+npm run dev//启动本地测试网络
+npm install hardhat@2.13.0//hardhat版本2.13.0
+npm install --save-dev "hardhat@^2.13.0" "@nomicfoundation/hardhat-toolbox@^2.0.0"//安装模块启动测试快
+npm i ethers@5.7.2//ethers.js版本5.7.2
+npm i web3modal@1.9.12//web3modal版本1.9.12
